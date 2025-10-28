@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 export function Hero() {
   return (
-    <section className="pt-32 pb-12 px-6">
+    <section className="px-6 min-h-screen items-center flex flex-col justify-center">
       <div className="container mx-auto max-w-5xl">
         {/* Trust Metrics */}
         <motion.div
