@@ -78,7 +78,7 @@ export function QuickAccessSection() {
             transition={{ duration: 0.8 }}
             className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal text-foreground mb-4 tracking-tight"
           >
-            Healthy Mom Dashboard
+            MomSync Dashboard
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

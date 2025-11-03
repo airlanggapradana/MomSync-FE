@@ -22,6 +22,7 @@ import {
   Settings,
   LogOut
 } from "lucide-react"
+import Image from "next/image"
 
 interface DashboardLayoutProps {
   children: React.ReactNode
@@ -89,11 +90,9 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
       {/* Sidebar Header */}
       <div className="p-6 border-b border-border">
         <div onClick={() => router.push("/")} className="flex items-center gap-3 mb-6 cursor-pointer">
-          <div className="w-10 h-10 bg-linear-to-br from-[#1f4b4a] to-[#2d6a68] rounded-xl flex items-center justify-center">
-            <Heart className="w-6 h-6 text-white fill-white" />
-          </div>
+          <Image src="/logo.jpg" alt="MomSync Logo" width={40} height={40} className="rounded-md" />
           <div>
-            <h1 className="font-serif text-xl font-semibold text-foreground">Healthy Mom</h1>
+            <h1 className="font-serif text-xl font-semibold text-foreground">MomSync</h1>
             <p className="text-sm text-muted-foreground">Maternal Health Dashboard</p>
           </div>
         </div>
@@ -177,7 +176,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
             <div className="w-8 h-8 bg-linear-to-br from-[#1f4b4a] to-[#2d6a68] rounded-lg flex items-center justify-center">
               <Heart className="w-5 h-5 text-white fill-white" />
             </div>
-            <span className="font-serif text-lg font-semibold text-foreground">Healthy Mom</span>
+            <span className="font-serif text-lg font-semibold text-foreground">MomSync</span>
           </div>
           <Button
             variant="outline"

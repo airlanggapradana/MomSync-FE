@@ -17,9 +17,9 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Spark - Design Agency",
-  description: "Websites That Convert. A Design Partner That Sticks Around.",
-  generator: "v0.app",
+  title: "MomSync - Empowering Mothers, Nurturing Lives",
+  description: "Your trusted companion for a healthy and joyful pregnancy journey.",
+  generator: "Next.js",
 }
 
 export default function RootLayout({

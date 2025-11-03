@@ -83,7 +83,7 @@ export default function AboutPage() {
             </div>
             
             <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-normal text-center leading-[1.1] mb-6">
-              About Healthy Mom
+              About MomSync
             </h1>
             
             <p className="text-center text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
@@ -284,7 +284,7 @@ export default function AboutPage() {
             
             <div className="space-y-6 text-muted-foreground leading-relaxed text-lg">
               <p>
-                Healthy Mom was founded with a simple yet powerful mission: to ensure every mother has access 
+                MomSync was founded with a simple yet powerful mission: to ensure every mother has access 
                 to the knowledge and support needed for a healthy pregnancy and to prevent stunting from the very beginning.
               </p>
               
@@ -301,7 +301,7 @@ export default function AboutPage() {
               </p>
               
               <p>
-                Today, Healthy Mom continues to evolve, incorporating the latest research in maternal and child 
+                Today, MomSync continues to evolve, incorporating the latest research in maternal and child 
                 health while maintaining our core commitment: empowering mothers with the tools they need to 
                 give their children the healthiest possible start in life.
               </p>

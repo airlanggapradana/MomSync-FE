@@ -3,6 +3,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/3d-button"
 import { Heart } from "lucide-react"
 import { usePathname, useRouter } from "next/navigation"
+import Image from "next/image"
 
 export function Header() {
   const router = useRouter()
@@ -15,10 +16,8 @@ export function Header() {
         <div className="relative flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 text-xl font-semibold">
-            <div className="w-8 h-8 bg-linear-to-br from-[#1f4b4a] to-[#2d6a68] rounded-lg flex items-center justify-center">
-              <Heart className="w-5 h-5 text-white fill-white" />
-            </div>
-            <span className="font-serif text-foreground">Mom.</span>
+            <Image src="./logo.jpg" alt="MomSync Logo" width={32} height={32} className="rounded-md" />
+            <span className="font-serif text-foreground">MomSync.</span>
           </Link>
 
           <nav className="hidden lg:flex items-center gap-6 absolute left-1/2 -translate-x-1/2">

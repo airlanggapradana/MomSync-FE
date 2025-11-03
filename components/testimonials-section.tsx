@@ -12,7 +12,7 @@ const testimonials: Testimonial[] = [
   {
     image: "/placeholder.svg?height=400&width=400",
     quote:
-      "The expert team here is very responsive and patient in answering all my questions. Thanks to regular consultations, my pregnancy went smoothly and my little one was born with ideal weight. Thank you Healthy Mom!",
+      "The expert team here is very responsive and patient in answering all my questions. Thanks to regular consultations, my pregnancy went smoothly and my little one was born with ideal weight. Thank you MomSync!",
     name: "Dewi Rahmawati",
     role: "Mother of Aira, 8 months",
     rating: 5,

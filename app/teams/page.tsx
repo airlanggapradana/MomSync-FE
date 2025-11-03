@@ -78,52 +78,39 @@ export default function OurTeamsPage() {
 
   const medicalTeam = [
     {
-      name: "Dr. Amanda Rodriguez",
-      role: "Senior Obstetrician",
-      specialization: "High-Risk Pregnancy",
+      name: "Safwan Aulia Rahman",
       icon: Shield,
       color: "from-[#4d8a88] to-[#5d9a98]",
-      experience: "12 years"
     },
     {
-      name: "Dr. James Park",
-      role: "Prenatal Care Specialist",
-      specialization: "Preventive Medicine",
+      name: "Aura Kalbu Darsono",
       icon: Activity,
       color: "from-[#5d9a98] to-[#6daaa8]",
-      experience: "10 years"
     },
     {
-      name: "Dr. Lisa Thompson",
-      role: "Mental Health Counselor",
-      specialization: "Perinatal Psychology",
+      name: "Airlangga Pradana Prakusa",
       icon: Brain,
       color: "from-[#6daaa8] to-[#7dbab8]",
-      experience: "8 years"
     },
     {
-      name: "Maria Santos, RN",
-      role: "Head Midwife",
-      specialization: "Labor & Delivery",
+      name: "Kurniawan Candra Mahardika",
       icon: Heart,
       color: "from-[#7dbab8] to-[#8dcac8]",
-      experience: "15 years"
     },
     {
-      name: "Jennifer Lee, RD",
-      role: "Clinical Nutritionist",
-      specialization: "Pregnancy Nutrition",
+      name: "Sulthon Kaffah Al Farizzi",
       icon: Apple,
       color: "from-[#1f4b4a] to-[#2d6a68]",
-      experience: "9 years"
     },
     {
-      name: "David Kumar, PhD",
-      role: "Research Scientist",
-      specialization: "Maternal Health Research",
+      name: "Sa'adah Luthfia Fatimah",
       icon: BookOpen,
       color: "from-[#2d6a68] to-[#3d7a78]",
-      experience: "11 years"
+    },
+    {
+      name: "Ilma Khoirunissa",
+      icon: Target,
+      color: "from-[#3d7a78] to-[#4d8a88]",
     }
   ]
 
@@ -187,7 +174,7 @@ export default function OurTeamsPage() {
             </h1>
             
             <p className="text-center text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Dedicated healthcare professionals committed to your wellbeing and your baby's healthy development. 
+              Dedicated professionals committed to your wellbeing and your baby's healthy development. 
               Our team combines decades of experience with compassionate, personalized care.
             </p>
           </motion.div>
@@ -199,20 +186,7 @@ export default function OurTeamsPage() {
       {/* Medical Team */}
       <section className="py-20 px-4 sm:px-6 w-full bg-secondary/30">
         <div className="max-w-7xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.8 }}
-            className="text-center mb-16"
-          >
-            <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal text-foreground mb-4">
-              Medical Specialists
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Expert clinicians providing comprehensive care across all aspects of maternal health
-            </p>
-          </motion.div>
+        
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {medicalTeam.map((member, index) => (
@@ -233,17 +207,7 @@ export default function OurTeamsPage() {
                       {member.name}
                     </h3>
                     
-                    <p className="text-[#1f4b4a] font-medium mb-2">
-                      {member.role}
-                    </p>
-                    
-                    <p className="text-sm text-muted-foreground mb-3">
-                      {member.specialization}
-                    </p>
-                    
-                    <Badge variant="outline" className="text-xs">
-                      {member.experience} experience
-                    </Badge>
+               
                   </div>
                 </Card>
               </motion.div>
