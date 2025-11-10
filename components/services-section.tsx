@@ -45,7 +45,7 @@ export function ServicesSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
-            className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal text-foreground mb-4 tracking-tight"
+            className=" text-4xl sm:text-5xl lg:text-6xl font-normal text-foreground mb-4 tracking-tight"
           >
             Everything You Need, In One Place
           </motion.h2>

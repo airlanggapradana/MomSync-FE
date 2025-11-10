@@ -10,7 +10,7 @@ export function ClientLogos() {
   return (
     <section className="py-12 px-6 border-t border-border">
       <div className="container mx-auto">
-        <h2 className="font-serif text-2xl md:text-3xl text-center mb-8 text-foreground/60">Trusted By</h2>
+        <h2 className=" text-2xl md:text-3xl text-center mb-8 text-foreground/60">Trusted By</h2>
         <div className="flex items-center justify-center gap-12 flex-wrap opacity-40 grayscale">
           {logos.map((logo) => (
             <div key={logo.name} className="flex items-center justify-center h-10">

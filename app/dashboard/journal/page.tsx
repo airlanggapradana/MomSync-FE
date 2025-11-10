@@ -56,7 +56,7 @@ export default function JournalPage() {
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-linear-to-br from-[#1f4b4a] to-[#2d6a68] mb-6">
             <BookOpen className="w-8 h-8 text-white" />
           </div>
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal text-foreground mb-4">
+          <h1 className=" text-4xl md:text-5xl lg:text-6xl font-normal text-foreground mb-4">
             Pregnancy Journal
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
@@ -116,7 +116,7 @@ export default function JournalPage() {
         </div>
 
         <div className="space-y-6 mb-12">
-          <h2 className="font-serif text-3xl font-normal text-foreground">Recent Entries</h2>
+          <h2 className=" text-3xl font-normal text-foreground">Recent Entries</h2>
           
           {journalEntries.map((entry, index) => (
             <motion.div
@@ -174,7 +174,7 @@ export default function JournalPage() {
           className="bg-secondary/30 rounded-3xl p-10 border border-border"
         >
           <div className="text-center mb-8">
-            <h3 className="font-serif text-3xl md:text-4xl font-normal text-foreground mb-3">
+            <h3 className=" text-3xl md:text-4xl font-normal text-foreground mb-3">
               ✨ Journaling Tips
             </h3>
             <p className="text-muted-foreground text-lg">

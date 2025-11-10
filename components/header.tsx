@@ -17,7 +17,7 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 text-xl font-semibold">
             <Image src="./logo.jpg" alt="MomSync Logo" width={32} height={32} className="rounded-md" />
-            <span className="font-serif text-foreground">MomSync.</span>
+            <span className=" text-foreground">MomSync.</span>
           </Link>
 
           <nav className="hidden lg:flex items-center gap-6 absolute left-1/2 -translate-x-1/2">

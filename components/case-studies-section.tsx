@@ -43,7 +43,7 @@ export function CaseStudiesSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
-            className="font-serif text-4xl md:text-5xl font-bold mb-4"
+            className=" text-4xl md:text-5xl font-bold mb-4"
           >
             Case Studies
           </motion.h2>
@@ -77,7 +77,7 @@ export function CaseStudiesSection() {
               </div>
               <div className="p-8">
                 <div className="text-sm font-semibold text-primary mb-2">{study.client}</div>
-                <h3 className="font-serif text-2xl font-bold mb-3">{study.project}</h3>
+                <h3 className=" text-2xl font-bold mb-3">{study.project}</h3>
                 <div className="text-3xl font-bold text-primary mb-4">{study.metric}</div>
                 <p className="text-muted-foreground leading-relaxed">{study.description}</p>
               </div>

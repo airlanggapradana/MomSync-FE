@@ -58,7 +58,7 @@ export function EducationalBlogSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
-            className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal text-foreground mb-4 tracking-tight"
+            className=" text-4xl sm:text-5xl lg:text-6xl font-normal text-foreground mb-4 tracking-tight"
           >
             Latest Articles & Education
           </motion.h2>

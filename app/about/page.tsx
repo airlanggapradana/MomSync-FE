@@ -82,7 +82,7 @@ export default function AboutPage() {
               <Heart className="w-8 h-8 text-white fill-white" />
             </div>
             
-            <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-normal text-center leading-[1.1] mb-6">
+            <h1 className=" text-4xl md:text-6xl lg:text-7xl font-normal text-center leading-[1.1] mb-6">
               About MomSync
             </h1>
             
@@ -108,7 +108,7 @@ export default function AboutPage() {
               <div className="w-16 h-16 rounded-2xl bg-linear-to-br from-[#1f4b4a] to-[#2d6a68] flex items-center justify-center mb-6">
                 <Target className="w-8 h-8 text-white" />
               </div>
-              <h2 className="font-serif text-3xl font-semibold text-foreground mb-4">Our Mission</h2>
+              <h2 className=" text-3xl font-semibold text-foreground mb-4">Our Mission</h2>
               <p className="text-muted-foreground leading-relaxed">
                 To provide comprehensive, accessible, and evidence-based support for pregnant mothers, 
                 ensuring optimal maternal and fetal health while preventing stunting through proper nutrition, 
@@ -126,7 +126,7 @@ export default function AboutPage() {
               <div className="w-16 h-16 rounded-2xl bg-linear-to-br from-[#2d6a68] to-[#3d7a78] flex items-center justify-center mb-6">
                 <TrendingUp className="w-8 h-8 text-white" />
               </div>
-              <h2 className="font-serif text-3xl font-semibold text-foreground mb-4">Our Vision</h2>
+              <h2 className=" text-3xl font-semibold text-foreground mb-4">Our Vision</h2>
               <p className="text-muted-foreground leading-relaxed">
                 A world where every child is born healthy and reaches their full growth potential, 
                 where stunting is prevented through empowered mothers who have access to the knowledge, 
@@ -147,7 +147,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal text-foreground mb-4">
+            <h2 className=" text-4xl sm:text-5xl lg:text-6xl font-normal text-foreground mb-4">
               Our Impact
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -187,7 +187,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal text-foreground mb-4">
+            <h2 className=" text-4xl sm:text-5xl lg:text-6xl font-normal text-foreground mb-4">
               Our Core Values
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -230,7 +230,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal text-foreground mb-4">
+            <h2 className=" text-4xl sm:text-5xl lg:text-6xl font-normal text-foreground mb-4">
               Our Expert Team
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -277,7 +277,7 @@ export default function AboutPage() {
             className="bg-background rounded-3xl p-12 border border-border"
           >
             <div className="text-center mb-8">
-              <h2 className="font-serif text-4xl sm:text-5xl font-normal text-foreground mb-6">
+              <h2 className=" text-4xl sm:text-5xl font-normal text-foreground mb-6">
                 Our Story
               </h2>
             </div>
@@ -324,7 +324,7 @@ export default function AboutPage() {
               <Heart className="w-8 h-8 text-white fill-white" />
             </div>
             
-            <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6">
+            <h2 className=" text-4xl md:text-5xl font-bold mb-6">
               Join Our Community
             </h2>
             

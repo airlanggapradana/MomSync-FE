@@ -62,7 +62,7 @@ export function PricingSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
-            className="font-serif text-4xl md:text-5xl font-bold mb-4"
+            className=" text-4xl md:text-5xl font-bold mb-4"
           >
             Transparent Pricing
           </motion.h2>
@@ -92,7 +92,7 @@ export function PricingSection() {
               {plan.featured && (
                 <div className="text-xs font-bold text-primary uppercase tracking-wider mb-4">Most Popular</div>
               )}
-              <h3 className="font-serif text-2xl font-bold mb-2">{plan.name}</h3>
+              <h3 className=" text-2xl font-bold mb-2">{plan.name}</h3>
               <div className="mb-4">
                 <span className="text-4xl font-bold">{plan.price}</span>
                 <span className="text-muted-foreground ml-2">{plan.period}</span>

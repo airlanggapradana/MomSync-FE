@@ -30,7 +30,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="font-serif text-4xl md:text-6xl lg:text-7xl font-normal text-center leading-[1.1] mb-6 text-balance"
+          className=" text-4xl md:text-6xl lg:text-7xl font-bold text-center leading-[1.1] mb-6 text-balance"
         >
           🌸 Prevent Stunting,{" "}
           <span className="inline-flex items-center gap-3">

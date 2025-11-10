@@ -49,7 +49,7 @@ export function FAQSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
-            className="font-serif text-4xl md:text-5xl font-bold mb-4"
+            className=" text-4xl md:text-5xl font-bold mb-4"
           >
             Frequently Asked Questions
           </motion.h2>

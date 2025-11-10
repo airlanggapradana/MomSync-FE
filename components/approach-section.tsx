@@ -46,7 +46,7 @@ export function ApproachSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
-            className="font-serif text-5xl md:text-6xl mb-6 text-balance"
+            className=" text-5xl md:text-6xl mb-6 text-balance"
           >
             Our Approach
           </motion.h2>
@@ -79,7 +79,7 @@ export function ApproachSection() {
                 }`}
               >
                 {/* Step Number Circle */}
-                <div className="flex-shrink-0 w-16 h-16 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-serif text-xl font-bold relative z-10 md:absolute md:left-1/2 md:-translate-x-1/2">
+                <div className="flex-shrink-0 w-16 h-16 rounded-full bg-primary text-primary-foreground flex items-center justify-center  text-xl font-bold relative z-10 md:absolute md:left-1/2 md:-translate-x-1/2">
                   {step.number}
                 </div>
 
@@ -88,7 +88,7 @@ export function ApproachSection() {
                   className={`flex-1 ${index % 2 === 0 ? "md:pr-16 md:text-right" : "md:pl-16 md:text-left"} md:w-1/2`}
                 >
                   <div className="bg-secondary p-8 rounded-2xl border border-border hover:border-primary/50 transition-colors">
-                    <h3 className="font-serif text-2xl md:text-3xl mb-4">{step.title}</h3>
+                    <h3 className=" text-2xl md:text-3xl mb-4">{step.title}</h3>
                     <p className="text-muted-foreground leading-relaxed">{step.description}</p>
                   </div>
                 </div>

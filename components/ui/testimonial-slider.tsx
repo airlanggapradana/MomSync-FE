@@ -100,7 +100,7 @@ export const TestimonialSlider = ({ testimonials, className }: TestimonialSlider
                 <StarRating rating={currentTestimonial.rating} className="mb-4" />
                 <div className="flex items-center justify-between">
                   <div className="pr-12">
-                    <p className="font-serif font-bold text-lg text-foreground">{currentTestimonial.name}</p>
+                    <p className=" font-bold text-lg text-foreground">{currentTestimonial.name}</p>
                     <p className="text-sm text-muted-foreground font-sans">{currentTestimonial.role}</p>
                   </div>
                   {/* Navigation Controls */}

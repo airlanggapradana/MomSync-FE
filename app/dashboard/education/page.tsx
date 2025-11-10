@@ -111,7 +111,7 @@ export default function EducationPage() {
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-linear-to-br from-[#1f4b4a] to-[#2d6a68] mb-6">
             <BookOpen className="w-8 h-8 text-white" />
           </div>
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal text-foreground mb-4">
+          <h1 className=" text-4xl md:text-5xl lg:text-6xl font-normal text-foreground mb-4">
             Pregnancy Education
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
@@ -212,7 +212,7 @@ export default function EducationPage() {
 
         {/* Featured Content */}
         <div className="mb-12">
-          <h2 className="font-serif text-3xl font-normal text-foreground mb-8 text-center">Featured Content</h2>
+          <h2 className=" text-3xl font-normal text-foreground mb-8 text-center">Featured Content</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {educationContent.map((content, index) => (
               <motion.div
@@ -275,7 +275,7 @@ export default function EducationPage() {
           className="bg-secondary/30 rounded-3xl p-10 border border-border"
         >
           <div className="text-center mb-10">
-            <h3 className="font-serif text-3xl md:text-4xl font-normal text-foreground mb-3">
+            <h3 className=" text-3xl md:text-4xl font-normal text-foreground mb-3">
               📚 Recommended Learning Path
             </h3>
             <p className="text-muted-foreground text-lg">

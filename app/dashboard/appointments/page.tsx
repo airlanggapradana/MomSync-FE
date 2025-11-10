@@ -93,7 +93,7 @@ export default function AppointmentsPage() {
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-linear-to-br from-[#1f4b4a] to-[#2d6a68] mb-6">
             <Calendar className="w-8 h-8 text-white" />
           </div>
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal text-foreground mb-4">
+          <h1 className=" text-4xl md:text-5xl lg:text-6xl font-normal text-foreground mb-4">
             Medical Appointments
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">

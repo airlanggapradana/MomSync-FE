@@ -169,7 +169,7 @@ export default function OurTeamsPage() {
               <Users className="w-8 h-8 text-white" />
             </div>
             
-            <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-normal text-center leading-[1.1] mb-6">
+            <h1 className=" text-4xl md:text-6xl lg:text-7xl font-normal text-center leading-[1.1] mb-6">
               Meet Our Expert Team
             </h1>
             

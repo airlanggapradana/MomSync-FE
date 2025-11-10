@@ -40,7 +40,7 @@ export function TestimonialsSection() {
     <section className="py-32 px-4 bg-background overflow-visible">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4 text-balance">Real Stories from Mothers</h2>
+          <h2 className=" text-4xl md:text-5xl font-bold mb-4 text-balance">Real Stories from Mothers</h2>
           <p className="font-sans text-lg text-muted-foreground max-w-2xl mx-auto">
             Listen to real experiences from mothers who have felt the benefits
           </p>

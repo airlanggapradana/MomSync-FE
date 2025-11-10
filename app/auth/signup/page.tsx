@@ -38,7 +38,7 @@ export default function SignupPage() {
         >
           <div className="bg-secondary/30 rounded-3xl p-8 md:p-12 border border-border">
             <div className="mb-8 text-center lg:text-left">
-              <h2 className="font-serif text-3xl md:text-4xl font-normal text-foreground mb-2">
+              <h2 className=" text-3xl md:text-4xl font-normal text-foreground mb-2">
                 Create Account
               </h2>
               <p className="text-muted-foreground">

@@ -35,7 +35,7 @@ export function WhyImportantSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
-            className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal text-foreground mb-4 tracking-tight"
+            className=" text-4xl sm:text-5xl lg:text-6xl font-normal text-foreground mb-4 tracking-tight"
           >
             Why Does Stunting Prevention Start During Pregnancy?
           </motion.h2>
@@ -86,7 +86,7 @@ export function WhyImportantSection() {
             <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-linear-to-br from-[#1f4b4a] to-[#2d6a68] mb-6">
               <span className="text-3xl">🤱</span>
             </div>
-            <h3 className="font-serif text-2xl font-semibold text-foreground mb-4">
+            <h3 className=" text-2xl font-semibold text-foreground mb-4">
               Happy Pregnant Mother Illustration
             </h3>
             <p className="text-muted-foreground">
