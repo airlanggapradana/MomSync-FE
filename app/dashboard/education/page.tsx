@@ -101,34 +101,8 @@ export default function EducationPage() {
 
   return (
     <div className="min-h-screen bg-background py-12 px-4 sm:px-6">
-      <div className="max-w-7xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="mb-12 text-center"
-        >
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-linear-to-br from-[#1f4b4a] to-[#2d6a68] mb-6">
-            <BookOpen className="w-8 h-8 text-white" />
-          </div>
-          <h1 className=" text-4xl md:text-5xl lg:text-6xl font-normal text-foreground mb-4">
-            Pregnancy Education
-          </h1>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-            Learn everything you need for a healthy and informed pregnancy journey
-          </p>
-          <div className="flex flex-wrap gap-3 justify-center">
-            <Button variant="outline" size="lg" className="rounded-full">
-              <Search className="w-5 h-5 mr-2" />
-              Search
-            </Button>
-            <Button size="lg" className="rounded-full">
-              <Download className="w-5 h-5 mr-2" />
-              My Library
-            </Button>
-          </div>
-        </motion.div>
-
+      <div className="">
+       
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

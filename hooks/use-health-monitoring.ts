@@ -20,7 +20,7 @@ export const useHealthMonitoring = () => {
     try {
       setLoading(true)
       setError(null)
-      const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/health-monitoring?motherId=${motherId}`)
+      const response = await fetch(`/api/health-monitoring?motherId=${motherId}`)
       if (!response.ok) throw new Error('Failed to fetch health records')
       return await response.json()
     } catch (err) {
@@ -37,7 +37,7 @@ export const useHealthMonitoring = () => {
     try {
       setLoading(true)
       setError(null)
-      const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/health-monitoring/${id}`)
+      const response = await fetch(`/api/health-monitoring/${id}`)
       if (!response.ok) throw new Error('Failed to fetch health record')
       return await response.json()
     } catch (err) {
@@ -62,7 +62,7 @@ export const useHealthMonitoring = () => {
     try {
       setLoading(true)
       setError(null)
-      const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/health-monitoring`, {
+      const response = await fetch(`/api/health-monitoring`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ motherId, ...data }),
@@ -91,7 +91,7 @@ export const useHealthMonitoring = () => {
     try {
       setLoading(true)
       setError(null)
-      const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/health-monitoring/${id}`, {
+      const response = await fetch(`/api/health-monitoring/${id}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
@@ -112,7 +112,7 @@ export const useHealthMonitoring = () => {
     try {
       setLoading(true)
       setError(null)
-      const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/health-monitoring/${id}`, {
+      const response = await fetch(`/api/health-monitoring/${id}`, {
         method: 'DELETE',
       })
       if (!response.ok) throw new Error('Failed to delete health record')

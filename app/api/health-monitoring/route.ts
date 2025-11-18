@@ -1,6 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 
+// Handle CORS preflight requests
+export async function OPTIONS(req: NextRequest) {
+  return new NextResponse(null, {
+    status: 200,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+    },
+  })
+}
+
 // GET all health monitoring records for a mother
 export async function GET(req: NextRequest) {
   try {
@@ -19,7 +31,13 @@ export async function GET(req: NextRequest) {
       orderBy: { created_at: 'desc' },
     })
 
-    return NextResponse.json(healthSigns, { status: 200 })
+    return NextResponse.json(healthSigns, { 
+      status: 200,
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Content-Type': 'application/json',
+      },
+    })
   } catch (error) {
     console.error('Error fetching health monitoring:', error)
     return NextResponse.json(
@@ -53,7 +71,13 @@ export async function POST(req: NextRequest) {
       },
     })
 
-    return NextResponse.json(newHealthRecord, { status: 201 })
+    return NextResponse.json(newHealthRecord, { 
+      status: 201,
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Content-Type': 'application/json',
+      },
+    })
   } catch (error) {
     console.error('Error creating health monitoring record:', error)
     return NextResponse.json(

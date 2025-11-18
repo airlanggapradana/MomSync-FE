@@ -46,28 +46,8 @@ export default function JournalPage() {
 
   return (
     <div className="min-h-screen bg-background py-12 px-4 sm:px-6">
-      <div className="max-w-4xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="mb-12 text-center"
-        >
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-linear-to-br from-[#1f4b4a] to-[#2d6a68] mb-6">
-            <BookOpen className="w-8 h-8 text-white" />
-          </div>
-          <h1 className=" text-4xl md:text-5xl lg:text-6xl font-normal text-foreground mb-4">
-            Pregnancy Journal
-          </h1>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-            Document your pregnancy journey and capture every precious moment
-          </p>
-          <Button size="lg" className="rounded-full">
-            <Plus className="w-5 h-5 mr-2" />
-            New Entry
-          </Button>
-        </motion.div>
-
+      <div className="">
+       
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

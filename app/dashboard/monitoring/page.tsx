@@ -191,7 +191,7 @@ export default function HealthMonitoringPage() {
 
   return (
     <div className="min-h-screen bg-background py-12 px-4 sm:px-6">
-      <div className="max-w-7xl mx-auto">
+      <div className="">
         {/* Page Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}

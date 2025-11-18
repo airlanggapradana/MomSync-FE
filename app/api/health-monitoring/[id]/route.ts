@@ -5,6 +5,18 @@ interface Params {
   id: string
 }
 
+// Handle CORS preflight requests
+export async function OPTIONS(req: NextRequest) {
+  return new NextResponse(null, {
+    status: 200,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+    },
+  })
+}
+
 // GET a specific health monitoring record
 export async function GET(
   req: NextRequest,
@@ -31,7 +43,13 @@ export async function GET(
       )
     }
 
-    return NextResponse.json(healthRecord, { status: 200 })
+    return NextResponse.json(healthRecord, { 
+      status: 200,
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Content-Type': 'application/json',
+      },
+    })
   } catch (error) {
     console.error('Error fetching health monitoring record:', error)
     return NextResponse.json(
@@ -85,7 +103,13 @@ export async function PUT(
       data: updateData,
     })
 
-    return NextResponse.json(updatedRecord, { status: 200 })
+    return NextResponse.json(updatedRecord, { 
+      status: 200,
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Content-Type': 'application/json',
+      },
+    })
   } catch (error: any) {
     if (error.code === 'P2025') {
       return NextResponse.json(
@@ -122,7 +146,13 @@ export async function DELETE(
 
     return NextResponse.json(
       { message: 'Health monitoring record deleted successfully' },
-      { status: 200 }
+      { 
+        status: 200,
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+          'Content-Type': 'application/json',
+        },
+      }
     )
   } catch (error: any) {
     if (error.code === 'P2025') {

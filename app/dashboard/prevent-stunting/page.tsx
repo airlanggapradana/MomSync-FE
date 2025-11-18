@@ -122,28 +122,8 @@ export default function StuntingPreventionPage() {
 
   return (
     <div className="min-h-screen bg-background py-12 px-4 sm:px-6">
-      <div className="max-w-7xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="mb-12 text-center"
-        >
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-linear-to-br from-[#1f4b4a] to-[#2d6a68] mb-6">
-            <Target className="w-8 h-8 text-white" />
-          </div>
-          <h1 className=" text-4xl md:text-5xl lg:text-6xl font-normal text-foreground mb-4">
-            Growth & Development Monitoring
-          </h1>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-            Prevent stunting and ensure healthy fetal development with comprehensive tracking
-          </p>
-          <Button size="lg" className="rounded-full">
-            <Target className="w-5 h-5 mr-2" />
-            Update Measurements
-          </Button>
-        </motion.div>
-
+      <div className="">
+      
         {/* Current Status Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
           <motion.div

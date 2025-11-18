@@ -29,7 +29,7 @@ import {
 export default function SettingsPage() {
   return (
     <div className="min-h-screen bg-background py-12 px-4 sm:px-6">
-      <div className="max-w-6xl mx-auto">
+      <div className="">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

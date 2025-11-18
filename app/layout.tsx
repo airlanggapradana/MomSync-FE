@@ -4,6 +4,7 @@ import { Instrument_Serif, Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import { Header } from "@/components/header"
+import { AuthProvider } from "@/lib/auth-context"
 
 
 
@@ -26,9 +27,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable}  font-sans antialiased`}>
-        <Header />
-        {children}
-        <Analytics />
+        <AuthProvider>
+          <Header />
+          {children}
+          <Analytics />
+        </AuthProvider>
       </body>
     </html>
   )
