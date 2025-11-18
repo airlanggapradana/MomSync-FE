@@ -60,12 +60,13 @@ export default function LoginPage() {
       await login(credentials.email, credentials.password)
       // Store role in localStorage
       const roleMap: { [key: string]: string } = {
-        "End User": "mother",
-        "Healthcare": "doctor",
+        "Mother": "mother",
+        "Doctor": "doctor",
         "Partner": "partner",
         "Internal": "platform-admin"
       }
-      const userRole = roleMap[credentials.Ch] || "Mother"
+      console.log("credentials.Ch:",credentials.Ch)
+      const userRole = roleMap[credentials.Ch] || "ssother"
       localStorage.setItem("userRole", userRole)
       // Redirect to dashboard after successful login
       console.log("User role:", userRole)
